@@ -49,4 +49,4 @@ MySQL 集成测试自动创建独立 `treasure_company_qa_*` / `treasure_company
 
 本仓库为业务 API、MySQL 迁移、后台 Agent、模型集成及业务验收测试。配套前端：https://github.com/CatTomAjax/treasure_company_front 。
 
-默认后端 3003、前端 3002；前端配置 API_BASE_URL=http://127.0.0.1:3003，通过同源代理访问 API，无需浏览器跨域暴露数据库或模型密钥。不要把后端 .env 或 data/integration-master.key 放入前端仓库。
+默认后端 3003、前端 3002；后端支持在 .env 中用 PORT 覆盖端口，本机使用 3013，并将前端 API_BASE_URL / BACKEND_PORT 同步到 3013。前端配置 API_BASE_URL=http://127.0.0.1:3003，通过同源代理访问 API，无需浏览器跨域暴露数据库或模型密钥。不要把后端 .env 或 data/integration-master.key 放入前端仓库。
