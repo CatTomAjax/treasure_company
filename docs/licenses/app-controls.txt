@@ -1,0 +1,20 @@
+Unified application controls
+
+Sources verified on 2026-11-03:
+https://github.com/shadcn-ui/ui (approximately 127k GitHub stars)
+https://github.com/mui/base-ui (approximately 11.3k GitHub stars)
+https://github.com/satnaing/shadcn-admin (approximately 16.4k GitHub stars; comparison reference)
+
+The application uses its installed @base-ui/react 1.7.0 Select and Button
+primitives, with the shadcn/ui composition already present in components/ui.
+AppSelect adds a native form bridge to retain the existing form handlers,
+validation, FormData, reset and controlled values during migration.
+No additional dashboard backend or sample accounts were imported.
+
+Upstream license notices:
+- node_modules/@base-ui/react/LICENSE
+- docs/licenses/shadcn-ui-MIT.txt
+- docs/licenses/shadcn-admin-MIT.txt (existing sidebar reference)
+
+Original adapter, theme integration, and migration code were written for this
+project. GitHub star counts are approximate observations, not product ratings.

@@ -1,0 +1,12 @@
+Navigation UI sources (retrieved 2026-11-03)
+
+https://github.com/shadcn-ui/ui/tree/main/apps/v4/registry/new-york-v4/blocks/sidebar-07
+https://github.com/satnaing/shadcn-admin/tree/main/src/components/layout
+
+components/workspace-shell.tsx adapts the SidebarHeader / SidebarContent /
+Collapsible navigation / SidebarFooter composition. It uses the existing local
+shadcn Base UI primitives directly, with the existing workspace navigation data,
+a custom graphite and sage/mint theme, command search, and collapsed dropdowns.
+No template backend, sample accounts, router, or template business data imported.
+
+MIT license notices are retained in shadcn-ui-MIT.txt and shadcn-admin-MIT.txt.
